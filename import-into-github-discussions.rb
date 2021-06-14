@@ -21,7 +21,7 @@ BASE_URL = "https://groups.google.com/g/#{GROUP}/c/".freeze
 http = GraphQL::Client::HTTP.new("https://api.github.com/graphql") do
   def headers(context)
     {
-      "Authorization" => "bearer #{ENV['GITHUB_TOKEN']}",
+      "Authorization" => "bearer #{TOKEN}",
       "GraphQL-Features" => " discussions_api",
     }
   end
