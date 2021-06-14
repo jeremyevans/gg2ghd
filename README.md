@@ -28,7 +28,7 @@ token: GitHub access token (see https://docs.github.com/en/github/authenticating
 ## Requirements
 
 1. ruby - Programming Language
-2. graphql gem - For using GitHub Discussions's GraphQL API
+2. graphql-client gem - For using GitHub Discussions's GraphQL API
 3. mail - For parsing the files in the mbox directory
 
 ## Caveats
