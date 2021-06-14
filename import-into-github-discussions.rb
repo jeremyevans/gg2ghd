@@ -6,7 +6,7 @@ OWNER, REPO, TOKEN, PATH, GROUP, *extra = ARGV
 
 if !GROUP || !extra.empty?
   $stderr.puts(<<USAGE)
-Usage: ruby import-into-github-discussions.rb owner repo token path group"
+Usage: ruby import-into-github-discussions.rb owner repo token path group
 owner: GitHub account name
  repo: GitHub repository name
 token: GitHub access token (see https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
