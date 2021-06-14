@@ -5,7 +5,7 @@ OWNER, REPO, TOKEN, *extra = ARGV
 
 if !TOKEN || !extra.empty?
   $stderr.puts(<<USAGE)
-Usage: ruby remove-all-discussions.rb owner repo token"
+Usage: ruby remove-all-discussions.rb owner repo token
 owner: GitHub account name
  repo: GitHub repository name
 token: GitHub access token (see https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
